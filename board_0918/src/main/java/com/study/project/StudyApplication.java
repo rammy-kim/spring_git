@@ -9,7 +9,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 //@MapperScan({"com.study.project.repository", "com.study.project.rest"})
 public class StudyApplication extends SpringBootServletInitializer {
-	//우분투용 
+	//우분투용
 	@Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
         return builder.sources(StudyApplication.class);
